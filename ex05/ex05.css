@@ -1,0 +1,25 @@
+/* C'est pas impossible qu'il y ait un peu de CSS à rajouter ici... */
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+th {
+    background-color: #ddd;
+}
+
+td {
+    cursor: pointer;
+}
